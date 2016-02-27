@@ -104,7 +104,7 @@ var QuillComponent = React.createClass({
 		}
 	},
 
-	componentDidMount: function() {
+	_componentDidMount: function() {
 		var editor = this.createEditor(
 			this.getEditorElement(),
 			this.getEditorConfig());
